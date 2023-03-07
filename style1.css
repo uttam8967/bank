@@ -1,0 +1,227 @@
+*{
+    padding: 4px;
+    margin: 1px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    /* background: url(''); */
+    color: #fff;
+    /* flex-wrap: wrap; */
+}
+.left{
+position: absolute;
+left: 64px;
+top: 16px;
+}
+.left img{
+    border-radius: 80px;
+    width: 221px;
+    padding: 5px;
+    cursor: pointer;
+}
+.mid{
+display: block;
+margin: 17px 381px;
+width: 56%;
+font-size: 25px;
+/* border-color: red; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+    font-family:Inter,sans-serif;
+    /* border-radius: 25px; */
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size-adjust: none ;
+    border-radius: 25px;
+}
+.navbar li a:hover{
+background-color:#ccc;
+}
+.right{
+display: inline-block;
+position: absolute;
+right: 26px;
+top: 20px;
+padding: 0px 0px 0px 9px;
+background:#00baf2;
+border-radius: 30px;
+border: 4px;
+color: white;
+margin: 9px 9px;
+/* font-size: 15px; */
+height: 44px;
+/* justify-content: flex-end; */
+align-items: center;
+display: flex;
+cursor: pointer;
+}
+.right:hover{
+    background-color: #4a09e2;
+}
+/* .sin{
+    right: 5px;
+    text-align: center;
+} */
+span{
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     /* text-align: center; */
+     /* display: flex; */
+}
+.set{
+    display: flex;
+    background: #f6f6f6;
+    text-align: center;
+    justify-content: center;
+    height: 48px;
+    color: black;
+    font-weight: 500;
+    /* position: absolute; */
+    position: relative;
+    font-size: 19px;
+    /* left: -156px; */
+    width: 100%;
+}
+.sp{
+    font-size: 23px;
+    margin-bottom: 3px;
+    /* display: flex; */
+    padding-right: 5px;
+    display: flex;
+}
+.set,.sp a {
+   color:#000;
+   font-size: 22px;
+   text-underline-position:under ;
+}
+.set2{
+    background: #fff;
+    display: block;
+}
+.contaner{
+    padding: 128px 0px 120px;
+    width: 1260px;
+    margin:0px 119px;
+    display: block;
+}
+.box{
+width: 650px;
+display: block;
+}
+.img2{
+    margin-bottom: 48px;
+    display: block  ;
+}
+.img2 img{
+    width: 90px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
+}
+h1{
+    font-size:54px;
+    font-weight: 700;
+    line-height:65px;
+    display: block;
+    color: #000;
+    cursor: pointer;
+}
+.text2{
+    padding-top:10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    display: block;
+    color: #000;
+}
+.img3 img{
+    width: 528px;
+    position: absolute;
+    top:250px;
+    right:0px;
+}
+.app{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:44px;
+    /* font-size:18em; */
+    /* color:#000; */
+    background-color: #000;
+    border-radius: 26px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.app:hover{
+    background-color:rgb(212, 24, 24);
+}
+.set3{
+    background: #00baf2;
+    display: block;
+    height: 3.75in;
+    /* padding: 0px; */
+}
+.dip{
+    width: 1300px;
+    margin: auto;
+}
+.h5 h1{
+    font-size: 37px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+} 
+.re{
+    display: flex;
+    margin-top:28px;
+    /* padding: 31px; */
+}
+.re1{
+    width:128px;
+    margin-right:54px;
+    cursor: pointer;
+    border-radius:12px;
+    /* padding: 16px 11px 16px 16px; */
+    font-size:17px;
+    color: #fff;
+    font-weight:500;
+    line-height:25px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 31px; */
+}
+.tx{
+    position: relative;
+    min-height: 45px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+.xt{
+    margin-right: 11px;
+    display: block;
+}
+.re img{
+    width: 75px;
+    margin-bottom: 17px;
+    background: #fff;
+    border-radius: 100%;
+}
+.re .re1:hover{
+    background-color: #ccc;
+}
